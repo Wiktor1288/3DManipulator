@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwindow_12',['MainWindow',['../class_main_window.html',1,'']]]
+  ['glwidget_5',['GLWidget',['../class_g_l_widget.html',1,'']]]
 ];

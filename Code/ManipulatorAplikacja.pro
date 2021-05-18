@@ -15,16 +15,19 @@ SOURCES += \
     connection.cpp \
     glwidget.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    wykresy.cpp
 
 HEADERS += \
     connection.h \
     glwidget.h \
-    mainwindow.h
+    mainwindow.h \
+    wykresy.h
 
 FORMS += \
     connection.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    wykresy.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -32,3 +35,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 LIBS += -lglut -lGLU
+INCLUDEPATH += /usr/include/c++/{gcc_version}/
+LIBS +=  -L/usr/opt/lib -lQGLViewer-qt5 -lSOIL

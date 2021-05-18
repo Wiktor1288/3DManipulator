@@ -1,6 +1,6 @@
 #include "connection.h"
 #include "ui_connection.h"
-
+#include <math.h>
 
 
 Connection::Connection(QWidget *parent) :
@@ -19,6 +19,70 @@ Connection::~Connection()
 void Connection::addToLogs(QString message){
     QString currentDateTime = QDateTime::currentDateTime().toString("yyyy.MM.dd hh:mm:ss");
     ui->textEditLogs->append(currentDateTime + "\t" + message);
+}
+
+void Connection::SendConfiguration(int joint1, int joint2, int joint3)
+{
+    QString message1="A";
+    if(joint1 >= 0){
+        message1+="+";
+    }
+    else{
+        message1+="-";
+    }
+    if(abs(joint1) > 99){
+        message1+=QString::number(abs(joint1));
+    }
+    else if(abs(joint1) > 9){
+         message1+="0"+QString::number(abs(joint1));
+    }
+    else{
+        message1+="00"+QString::number(abs(joint1));
+    }
+
+
+    message1+="B";
+    if(joint2 >= 0){
+        message1+="+";
+    }
+    else{
+        message1+="-";
+    }
+    if(abs(joint1) > 9){
+         message1+="0"+QString::number(abs(joint2));
+    }
+    else{
+        message1+="00"+QString::number(abs(joint2));
+    }
+
+
+
+    message1+="C";
+    if(joint3 >= 0){
+        message1+="+";
+    }
+    else{
+        message1+="-";
+    }
+    if(abs(joint1) > 9){
+         message1+="0"+QString::number(abs(joint3));
+    }
+    else{
+        message1+="00"+QString::number(abs(joint3));
+    }
+
+
+    qDebug() << message1;
+    if(this->device->isOpen() && this->device->isWritable()) {
+        this->device->write(message1.toStdString().c_str());
+      } else {
+        this->addToLogs("Nie mogę wysłać wiadomości. Port nie jest otwarty!");
+      }
+
+
+
+
+
 }
 
 

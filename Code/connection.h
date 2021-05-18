@@ -7,6 +7,7 @@
 #include <QSerialPort>
 #include <QDebug>
 #include <QDateTime>
+#include <QString>
 
 namespace Ui {
 class Connection;
@@ -33,6 +34,9 @@ private:
     Ui::Connection *ui;
     void addToLogs(QString message);
     QSerialPort *device;
+
+public:
+    void SendConfiguration(int joint1, int joint2, int joint3);
 
 };
 

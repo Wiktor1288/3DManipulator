@@ -3,7 +3,9 @@
 #include <QGLWidget>
 #include <QOpenGLWidget>
 #include <QOpenGLFunctions>
-class GLWidget : public QOpenGLWidget, protected QOpenGLFunctions
+#include <QOpenGLExtraFunctions>
+
+class GLWidget : public QOpenGLWidget, protected QOpenGLExtraFunctions
 {
     Q_OBJECT
 public:
@@ -16,6 +18,8 @@ protected:
 
 
     QOpenGLContext *m_context;
+private:
+    unsigned int buffer, VAO, EBO;
 
 };
 

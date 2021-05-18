@@ -3,7 +3,7 @@
 
 #include <QMainWindow>
 #include "connection.h"
-
+#include "wykresy.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -24,12 +24,16 @@ private slots:
 
     void on_actionPo_czenie_triggered();
 
+    void on_SendConf_clicked();
+
+    void on_actionWykresy_triggered();
+
 private:
     Ui::MainWindow *ui;
 
 
     Connection *myConnection;
-
+    Wykresy *myWykresy;
 
 };
 #endif // MAINWINDOW_H
