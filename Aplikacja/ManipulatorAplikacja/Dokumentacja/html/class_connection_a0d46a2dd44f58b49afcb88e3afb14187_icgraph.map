@@ -1,0 +1,7 @@
+<map id="Connection::checkCrc_8" name="Connection::checkCrc_8">
+<area shape="rect" id="node1" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="524,46,701,73"/>
+<area shape="rect" id="node2" href="$class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="269,17,460,43"/>
+<area shape="rect" id="node4" href="$class_connection.html#acd0097ce6c0b22d0e94ebee38ccc76bd" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="253,71,476,98"/>
+<area shape="rect" id="node3" href="$class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node5" href="$class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="6,71,205,112"/>
+</map>

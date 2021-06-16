@@ -1,0 +1,6 @@
+<map id="Connection::readFromPort" name="Connection::readFromPort">
+<area shape="rect" id="node1" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="5,56,196,83"/>
+<area shape="rect" id="node2" href="$class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="274,5,445,32"/>
+<area shape="rect" id="node3" href="$class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="244,56,475,83"/>
+<area shape="rect" id="node4" href="$class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="271,107,448,133"/>
+</map>

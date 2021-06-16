@@ -1,0 +1,7 @@
+<map id="Connection::on_pushButtonOn_clicked" name="Connection::on_pushButtonOn_clicked">
+<area shape="rect" id="node1" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,23,205,65"/>
+<area shape="rect" id="node2" href="$class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="522,5,693,32"/>
+<area shape="rect" id="node3" href="$class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,56,444,83"/>
+<area shape="rect" id="node4" href="$class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,56,723,83"/>
+<area shape="rect" id="node5" href="$class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="519,107,696,133"/>
+</map>

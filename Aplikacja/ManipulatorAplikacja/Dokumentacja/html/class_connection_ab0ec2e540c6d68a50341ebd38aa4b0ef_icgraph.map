@@ -1,0 +1,9 @@
+<map id="Connection::addToLogs" name="Connection::addToLogs">
+<area shape="rect" id="node1" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="524,130,695,157"/>
+<area shape="rect" id="node2" href="$class_connection.html#ac057b2c15c27902193726bde75b123dc" title="on_pushButtonOff_clicked Slot obsługujący kliknięcie przycisku &quot;Rozłącz&quot;. Kliknięcie powoduje start p..." alt="" coords="265,5,465,47"/>
+<area shape="rect" id="node3" href="$class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,116,205,157"/>
+<area shape="rect" id="node4" href="$class_connection.html#aa9474ea10f04d9818f71d6ee9408f016" title="on_pushButtonSearch_clicked Slot obsługujący kliknięcie przycisku &quot;Szukaj&quot;. Kliknięcie powoduje wyszu..." alt="" coords="265,123,465,164"/>
+<area shape="rect" id="node5" href="$class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="269,189,460,215"/>
+<area shape="rect" id="node6" href="$class_connection.html#acd0097ce6c0b22d0e94ebee38ccc76bd" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="253,239,476,266"/>
+<area shape="rect" id="node7" href="$class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="6,232,205,273"/>
+</map>

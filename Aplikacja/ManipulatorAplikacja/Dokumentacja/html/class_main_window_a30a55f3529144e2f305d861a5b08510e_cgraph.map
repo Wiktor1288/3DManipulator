@@ -1,0 +1,6 @@
+<map id="MainWindow::on_SendConf_clicked" name="MainWindow::on_SendConf_clicked">
+<area shape="rect" id="node1" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="5,23,204,65"/>
+<area shape="rect" id="node2" href="$class_connection.html#acd0097ce6c0b22d0e94ebee38ccc76bd" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="252,31,475,57"/>
+<area shape="rect" id="node3" href="$class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="526,5,697,32"/>
+<area shape="rect" id="node4" href="$class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="523,56,700,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="ViewerMan::draw" name="ViewerMan::draw">
+<area shape="rect" id="node1" title="draw redefinicja metody draw() z biblioteki QGLViewer. Metoda ta odpowiada za rysowanie modelu 3D" alt="" coords="5,5,140,32"/>
+<area shape="rect" id="node2" href="$viewerman_8cpp.html#a238ac57e311e097607895f06b7792b37" title=" " alt="" coords="188,5,295,32"/>
+</map>

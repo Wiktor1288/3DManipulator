@@ -1,0 +1,5 @@
+<map id="Graficzna hierarchia klas" name="Graficzna hierarchia klas">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,80,57"/>
+<area shape="rect" id="node2" href="$class_connection.html" title="The Connection class Klasa definiująca dialog z możliwością obsługi połączenia z portem COM." alt="" coords="128,5,223,32"/>
+<area shape="rect" id="node3" href="$class_wykresy.html" title="The Wykresy class Klasa obsługujaca okno z wykresami." alt="" coords="136,56,215,83"/>
+</map>

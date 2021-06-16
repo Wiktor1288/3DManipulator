@@ -1,0 +1,4 @@
+<map id="Connection::readFromPort" name="Connection::readFromPort">
+<area shape="rect" id="node1" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
+<area shape="rect" id="node2" href="$class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
+</map>

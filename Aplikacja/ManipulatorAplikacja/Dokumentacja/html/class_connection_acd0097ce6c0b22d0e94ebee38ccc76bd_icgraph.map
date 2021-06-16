@@ -1,0 +1,4 @@
+<map id="Connection::SendConfiguration" name="Connection::SendConfiguration">
+<area shape="rect" id="node1" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="252,13,475,39"/>
+<area shape="rect" id="node2" href="$class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="5,5,204,47"/>
+</map>

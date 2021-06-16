@@ -1,0 +1,7 @@
+<map id="MainWindow" name="MainWindow">
+<area shape="rect" id="node1" title=" " alt="" coords="121,171,227,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,81,121,108"/>
+<area shape="rect" id="node3" href="$class_connection.html" title="The Connection class Klasa definiująca dialog z możliwością obsługi połączenia z portem COM." alt="" coords="145,81,240,108"/>
+<area shape="rect" id="node4" title=" " alt="" coords="210,5,285,32"/>
+<area shape="rect" id="node5" href="$class_wykresy.html" title="The Wykresy class Klasa obsługujaca okno z wykresami." alt="" coords="264,81,343,108"/>
+</map>

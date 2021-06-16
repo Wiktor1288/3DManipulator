@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Manipulator3D: Dokumentacja klasy ViewerMan</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="ManLogo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Manipulator3D
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Application with visualization of 3-axis manipulator</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(document).ready(function(){initNavTree('class_viewer_man.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pro-methods">Metody chronione</a> &#124;
+<a href="#pri-attribs">Atrybuty prywatne</a> &#124;
+<a href="class_viewer_man-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle">
+<div class="title">Dokumentacja klasy ViewerMan</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>The <a class="el" href="class_viewer_man.html" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ...">ViewerMan</a> class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą OpenGL oraz QGLViewer.  
+ <a href="class_viewer_man.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="viewerman_8h_source.html">viewerman.h</a>&gt;</code></p>
+<div class="dynheader">
+Diagram dziedziczenia dla ViewerMan</div>
+<div class="dyncontent">
+<div class="center"><img src="class_viewer_man__inherit__graph.png" border="0" usemap="#a_viewer_man_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_viewer_man_inherit__map" id="a_viewer_man_inherit__map">
+<area shape="rect" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ..." alt="" coords="5,80,100,107"/>
+<area shape="rect" title=" " alt="" coords="6,5,99,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagram współpracy dla ViewerMan:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_viewer_man__coll__graph.png" border="0" usemap="#a_viewer_man_coll__map" alt="Collaboration graph"/></div>
+<map name="a_viewer_man_coll__map" id="a_viewer_man_coll__map">
+<area shape="rect" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ..." alt="" coords="5,80,100,107"/>
+<area shape="rect" title=" " alt="" coords="6,5,99,32"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a484144f4291d7babca3823d70012ca78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#a484144f4291d7babca3823d70012ca78">ViewerMan</a> (QWidget *pParent=nullptr)</td></tr>
+<tr class="memdesc:a484144f4291d7babca3823d70012ca78"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_viewer_man.html" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ...">ViewerMan</a> konstruktor inicjaizujący obiekt klasy <a class="el" href="class_viewer_man.html" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ...">ViewerMan</a>.  <a href="class_viewer_man.html#a484144f4291d7babca3823d70012ca78">Więcej...</a><br /></td></tr>
+<tr class="separator:a484144f4291d7babca3823d70012ca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae27989401b6bc2d0191c3600ed78f407"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#ae27989401b6bc2d0191c3600ed78f407">~ViewerMan</a> ()</td></tr>
+<tr class="memdesc:ae27989401b6bc2d0191c3600ed78f407"><td class="mdescLeft">&#160;</td><td class="mdescRight">dekonstruktor kalsy <a class="el" href="class_viewer_man.html" title="The ViewerMan class klasa odpowiedzialana za wyświetlenie widgetu manipulatora stworzonego za pomocą ...">ViewerMan</a>  <a href="class_viewer_man.html#ae27989401b6bc2d0191c3600ed78f407">Więcej...</a><br /></td></tr>
+<tr class="separator:ae27989401b6bc2d0191c3600ed78f407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ce73311cbbdb64f32db86110797efa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#a19ce73311cbbdb64f32db86110797efa">newAngles</a> (<a class="el" href="struct_data.html">Data</a> newData)</td></tr>
+<tr class="memdesc:a19ce73311cbbdb64f32db86110797efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">newAngles Metoda odpowiedzialana za update'owanie rysunku z nowymi wartościami kątowym  <a href="class_viewer_man.html#a19ce73311cbbdb64f32db86110797efa">Więcej...</a><br /></td></tr>
+<tr class="separator:a19ce73311cbbdb64f32db86110797efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Metody chronione</h2></td></tr>
+<tr class="memitem:a746c0db022a678ba77242937c917ee46"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#a746c0db022a678ba77242937c917ee46">draw</a> ()</td></tr>
+<tr class="memdesc:a746c0db022a678ba77242937c917ee46"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw redefinicja metody <a class="el" href="class_viewer_man.html#a746c0db022a678ba77242937c917ee46" title="draw redefinicja metody draw() z biblioteki QGLViewer. Metoda ta odpowiada za rysowanie modelu 3D">draw()</a> z biblioteki QGLViewer. Metoda ta odpowiada za rysowanie modelu 3D  <a href="class_viewer_man.html#a746c0db022a678ba77242937c917ee46">Więcej...</a><br /></td></tr>
+<tr class="separator:a746c0db022a678ba77242937c917ee46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239db091de01ddc5b901c843816ac2b7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#a239db091de01ddc5b901c843816ac2b7">init</a> ()</td></tr>
+<tr class="memdesc:a239db091de01ddc5b901c843816ac2b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">init redefinicja metody <a class="el" href="class_viewer_man.html#a239db091de01ddc5b901c843816ac2b7" title="init redefinicja metody init() z biblioteki QGLViewer. Metoda ta odopowiada za inicjalizacje i ustawi...">init()</a> z biblioteki QGLViewer. Metoda ta odopowiada za inicjalizacje i ustawienie reguł rysowania za pomocą OpenGL  <a href="class_viewer_man.html#a239db091de01ddc5b901c843816ac2b7">Więcej...</a><br /></td></tr>
+<tr class="separator:a239db091de01ddc5b901c843816ac2b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atrybuty prywatne</h2></td></tr>
+<tr class="memitem:aa6d79cb712bb6410711fb008c61e316f"><td class="memItemLeft" align="right" valign="top">GLUquadricObj *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#aa6d79cb712bb6410711fb008c61e316f">silnik</a></td></tr>
+<tr class="memdesc:aa6d79cb712bb6410711fb008c61e316f"><td class="mdescLeft">&#160;</td><td class="mdescRight">silnik wskaźik na klase GLUquadricObj, dzieki temu obiektowi tworzony jest walec zapomocą funkcji gluCylinder w metodzie <a class="el" href="class_viewer_man.html#a746c0db022a678ba77242937c917ee46" title="draw redefinicja metody draw() z biblioteki QGLViewer. Metoda ta odpowiada za rysowanie modelu 3D">draw()</a>.  <a href="class_viewer_man.html#aa6d79cb712bb6410711fb008c61e316f">Więcej...</a><br /></td></tr>
+<tr class="separator:aa6d79cb712bb6410711fb008c61e316f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82ea66c593825a4a9452ccef6dcdd902"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_viewer_man.html#a82ea66c593825a4a9452ccef6dcdd902">Angles</a> [3]</td></tr>
+<tr class="memdesc:a82ea66c593825a4a9452ccef6dcdd902"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles tablica przechowująca wartości poszczególnych kątów.  <a href="class_viewer_man.html#a82ea66c593825a4a9452ccef6dcdd902">Więcej...</a><br /></td></tr>
+<tr class="separator:a82ea66c593825a4a9452ccef6dcdd902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock">
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8h_source.html#l00011">11</a> pliku <a class="el" href="viewerman_8h_source.html">viewerman.h</a>.</p>
+</div><h2 class="groupheader">Dokumentacja konstruktora i destruktora</h2>
+<a id="a484144f4291d7babca3823d70012ca78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a484144f4291d7babca3823d70012ca78">&#9670;&nbsp;</a></span>ViewerMan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ViewerMan::ViewerMan </td>
+          <td>(</td>
+          <td class="paramtype">QWidget *&#160;</td>
+          <td class="paramname"><em>pParent</em> = <code>nullptr</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pParent</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8h_source.html#l00018">18</a> pliku <a class="el" href="viewerman_8h_source.html">viewerman.h</a>.</p>
+
+</div>
+</div>
+<a id="ae27989401b6bc2d0191c3600ed78f407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27989401b6bc2d0191c3600ed78f407">&#9670;&nbsp;</a></span>~ViewerMan()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ViewerMan::~ViewerMan </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8cpp_source.html#l00055">55</a> pliku <a class="el" href="viewerman_8cpp_source.html">viewerman.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="a746c0db022a678ba77242937c917ee46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746c0db022a678ba77242937c917ee46">&#9670;&nbsp;</a></span>draw()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ViewerMan::draw </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8cpp_source.html#l00060">60</a> pliku <a class="el" href="viewerman_8cpp_source.html">viewerman.cpp</a>.</p>
+<div class="dynheader">
+Oto graf wywołań dla tej funkcji:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_viewer_man_a746c0db022a678ba77242937c917ee46_cgraph.png" border="0" usemap="#aclass_viewer_man_a746c0db022a678ba77242937c917ee46_cgraph" alt=""/></div>
+<map name="aclass_viewer_man_a746c0db022a678ba77242937c917ee46_cgraph" id="aclass_viewer_man_a746c0db022a678ba77242937c917ee46_cgraph">
+<area shape="rect" title="draw redefinicja metody draw() z biblioteki QGLViewer. Metoda ta odpowiada za rysowanie modelu 3D" alt="" coords="5,5,140,32"/>
+<area shape="rect" href="viewerman_8cpp.html#a238ac57e311e097607895f06b7792b37" title=" " alt="" coords="188,5,295,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a239db091de01ddc5b901c843816ac2b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239db091de01ddc5b901c843816ac2b7">&#9670;&nbsp;</a></span>init()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ViewerMan::init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8cpp_source.html#l00141">141</a> pliku <a class="el" href="viewerman_8cpp_source.html">viewerman.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a19ce73311cbbdb64f32db86110797efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19ce73311cbbdb64f32db86110797efa">&#9670;&nbsp;</a></span>newAngles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ViewerMan::newAngles </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_data.html">Data</a>&#160;</td>
+          <td class="paramname"><em>newData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newData</td><td>Argument typu <a class="el" href="struct_data.html" title="The Data struct Struktura przechowujaca informacje o wartości kąta w poszczególnym przegubie.">Data</a> przechowujący dane z wartościami kątów </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8cpp_source.html#l00171">171</a> pliku <a class="el" href="viewerman_8cpp_source.html">viewerman.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentacja atrybutów składowych</h2>
+<a id="a82ea66c593825a4a9452ccef6dcdd902"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82ea66c593825a4a9452ccef6dcdd902">&#9670;&nbsp;</a></span>Angles</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ViewerMan::Angles[3]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8h_source.html#l00048">48</a> pliku <a class="el" href="viewerman_8h_source.html">viewerman.h</a>.</p>
+
+</div>
+</div>
+<a id="aa6d79cb712bb6410711fb008c61e316f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6d79cb712bb6410711fb008c61e316f">&#9670;&nbsp;</a></span>silnik</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GLUquadricObj* ViewerMan::silnik</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definicja w linii <a class="el" href="viewerman_8h_source.html#l00043">43</a> pliku <a class="el" href="viewerman_8h_source.html">viewerman.h</a>.</p>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>/home/wiktor/Pulpit/nowy/WDS/manipulator-m4p/Aplikacja/ManipulatorAplikacja/code/Inc/<a class="el" href="viewerman_8h_source.html">viewerman.h</a></li>
+<li>/home/wiktor/Pulpit/nowy/WDS/manipulator-m4p/Aplikacja/ManipulatorAplikacja/code/Src/<a class="el" href="viewerman_8cpp_source.html">viewerman.cpp</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_viewer_man.html">ViewerMan</a></li>
+    <li class="footer">Wygenerowano przez <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2 </li>
+  </ul>
+</div>
+</body>
+</html>

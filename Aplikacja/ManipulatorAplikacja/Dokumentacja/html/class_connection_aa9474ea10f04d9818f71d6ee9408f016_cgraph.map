@@ -1,0 +1,4 @@
+<map id="Connection::on_pushButtonSearch_clicked" name="Connection::on_pushButtonSearch_clicked">
+<area shape="rect" id="node1" title="on_pushButtonSearch_clicked Slot obsługujący kliknięcie przycisku &quot;Szukaj&quot;. Kliknięcie powoduje wyszu..." alt="" coords="5,5,205,47"/>
+<area shape="rect" id="node2" href="$class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="253,13,424,39"/>
+</map>

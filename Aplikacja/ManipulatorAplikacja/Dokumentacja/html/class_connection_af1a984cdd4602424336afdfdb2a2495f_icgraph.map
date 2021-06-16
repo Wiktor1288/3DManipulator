@@ -1,0 +1,6 @@
+<map id="Connection::changedAngle3" name="Connection::changedAngle3">
+<area shape="rect" id="node1" title="changedAngle3 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer trzy jego wystąpi..." alt="" coords="771,13,973,39"/>
+<area shape="rect" id="node2" href="$class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
+<area shape="rect" id="node3" href="$class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
+<area shape="rect" id="node4" href="$class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
+</map>
