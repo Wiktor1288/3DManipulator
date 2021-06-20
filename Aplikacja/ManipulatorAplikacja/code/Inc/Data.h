@@ -6,15 +6,15 @@
 ///
 struct Data{
     ///
-    /// \brief Angle1 wartość kąta w przegubie pierwszym
+    /// \brief Angle1 wartość kąta w przegubie pierwszym 0-180 (stopnie)
     ///
     int Angle1;
     ///
-    /// \brief Angle2 wartość kąta w przegubie drugim
+    /// \brief Angle2 wartość kąta w przegubie drugim 0-180 (stopnie)
     ///
     int Angle2;
     ///
-    /// \brief Angle2 wartość kąta w przegubie trzecim
+    /// \brief Angle2 wartość kąta w przegubie trzecim 0-180 (stopnie)
     ///
     int Angle3;
 };

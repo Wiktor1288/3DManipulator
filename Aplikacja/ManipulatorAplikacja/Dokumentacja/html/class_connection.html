@@ -104,21 +104,9 @@ $(document).ready(function(){initNavTree('class_connection.html',''); initResiza
 <div class="dynheader">
 Diagram dziedziczenia dla Connection</div>
 <div class="dyncontent">
-<div class="center"><img src="class_connection__inherit__graph.png" border="0" usemap="#a_connection_inherit__map" alt="Inheritance graph"/></div>
-<map name="a_connection_inherit__map" id="a_connection_inherit__map">
-<area shape="rect" title="The Connection class Klasa definiująca dialog z możliwością obsługi połączenia z portem COM." alt="" coords="5,80,100,107"/>
-<area shape="rect" title=" " alt="" coords="15,5,90,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
-<div class="dynheader">
-Diagram współpracy dla Connection:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection__coll__graph.png" border="0" usemap="#a_connection_coll__map" alt="Collaboration graph"/></div>
-<map name="a_connection_coll__map" id="a_connection_coll__map">
-<area shape="rect" title="The Connection class Klasa definiująca dialog z możliwością obsługi połączenia z portem COM." alt="" coords="5,80,100,107"/>
-<area shape="rect" title=" " alt="" coords="15,5,90,32"/>
-</map>
-<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+ <div class="center">
+  <img src="class_connection.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Sygnały</h2></td></tr>
@@ -150,13 +138,13 @@ Metody publiczne</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Atrybuty publiczne</h2></td></tr>
 <tr class="memitem:abb7d837f0985919aeb9cb877c78002e1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_connection.html#abb7d837f0985919aeb9cb877c78002e1">Angles1</a></td></tr>
-<tr class="memdesc:abb7d837f0985919aeb9cb877c78002e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles1 wartość kąta w przegubie pierwszym.  <a href="class_connection.html#abb7d837f0985919aeb9cb877c78002e1">Więcej...</a><br /></td></tr>
+<tr class="memdesc:abb7d837f0985919aeb9cb877c78002e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles1 wartość kąta w przegubie pierwszym 0-360 (stopnie)  <a href="class_connection.html#abb7d837f0985919aeb9cb877c78002e1">Więcej...</a><br /></td></tr>
 <tr class="separator:abb7d837f0985919aeb9cb877c78002e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357fd5020b392814c34d8df6d81410ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_connection.html#a357fd5020b392814c34d8df6d81410ff">Angles2</a></td></tr>
-<tr class="memdesc:a357fd5020b392814c34d8df6d81410ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles2 wartość kąta w przegubie drugim.  <a href="class_connection.html#a357fd5020b392814c34d8df6d81410ff">Więcej...</a><br /></td></tr>
+<tr class="memdesc:a357fd5020b392814c34d8df6d81410ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles2 wartość kąta w przegubie drugim 0-180 (stopnie)  <a href="class_connection.html#a357fd5020b392814c34d8df6d81410ff">Więcej...</a><br /></td></tr>
 <tr class="separator:a357fd5020b392814c34d8df6d81410ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69ba8977c2eb048d86e2531ce06ccba7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_connection.html#a69ba8977c2eb048d86e2531ce06ccba7">Angles3</a></td></tr>
-<tr class="memdesc:a69ba8977c2eb048d86e2531ce06ccba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles3 wartość kąta w przegubie trzecim.  <a href="class_connection.html#a69ba8977c2eb048d86e2531ce06ccba7">Więcej...</a><br /></td></tr>
+<tr class="memdesc:a69ba8977c2eb048d86e2531ce06ccba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angles3 wartość kąta w przegubie trzecim 0-180 (stopnie)  <a href="class_connection.html#a69ba8977c2eb048d86e2531ce06ccba7">Więcej...</a><br /></td></tr>
 <tr class="separator:a69ba8977c2eb048d86e2531ce06ccba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-slots"></a>
@@ -276,20 +264,6 @@ Atrybuty prywatne</h2></td></tr>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00042">42</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_ab0ec2e540c6d68a50341ebd38aa4b0ef_icgraph.png" border="0" usemap="#aclass_connection_ab0ec2e540c6d68a50341ebd38aa4b0ef_icgraph" alt=""/></div>
-<map name="aclass_connection_ab0ec2e540c6d68a50341ebd38aa4b0ef_icgraph" id="aclass_connection_ab0ec2e540c6d68a50341ebd38aa4b0ef_icgraph">
-<area shape="rect" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="524,130,695,157"/>
-<area shape="rect" href="class_connection.html#ac057b2c15c27902193726bde75b123dc" title="on_pushButtonOff_clicked Slot obsługujący kliknięcie przycisku &quot;Rozłącz&quot;. Kliknięcie powoduje start p..." alt="" coords="265,5,465,47"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,116,205,157"/>
-<area shape="rect" href="class_connection.html#aa9474ea10f04d9818f71d6ee9408f016" title="on_pushButtonSearch_clicked Slot obsługujący kliknięcie przycisku &quot;Szukaj&quot;. Kliknięcie powoduje wyszu..." alt="" coords="265,123,465,164"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="269,189,460,215"/>
-<area shape="rect" href="class_connection.html#acd0097ce6c0b22d0e94ebee38ccc76bd" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="253,239,476,266"/>
-<area shape="rect" href="class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="6,232,205,273"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -334,24 +308,14 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">joint1</td><td>wartość w przegubie pierwszym </td></tr>
-    <tr><td class="paramname">joint2</td><td>wartość w przegubie drugim </td></tr>
-    <tr><td class="paramname">joint3</td><td>wartość w przegubie trzecim </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint1</td><td>wartość w przegubie pierwszym 0-360 (stopnie) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint2</td><td>wartość w przegubie drugim 0-180 (stopnie) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint3</td><td>wartość w przegubie trzecim 0-180 (stopnie) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00065">65</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a820cecf0ed3503743d80c92609d6fc8f_icgraph.png" border="0" usemap="#aclass_connection_a820cecf0ed3503743d80c92609d6fc8f_icgraph" alt=""/></div>
-<map name="aclass_connection_a820cecf0ed3503743d80c92609d6fc8f_icgraph" id="aclass_connection_a820cecf0ed3503743d80c92609d6fc8f_icgraph">
-<area shape="rect" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -380,21 +344,10 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Value1</td><td>wartość w przegubie pierwszym </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Value1</td><td>wartość w przegubie pierwszym 0-360 (stopnie) </td></tr>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a58c492820611a129d78ffeae9f346b1c_icgraph.png" border="0" usemap="#aclass_connection_a58c492820611a129d78ffeae9f346b1c_icgraph" alt=""/></div>
-<map name="aclass_connection_a58c492820611a129d78ffeae9f346b1c_icgraph" id="aclass_connection_a58c492820611a129d78ffeae9f346b1c_icgraph">
-<area shape="rect" title="changedAngle1 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer jeden jego wystąp..." alt="" coords="771,13,973,39"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -423,21 +376,10 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Value1</td><td>wartość w przegubie drugim </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Value1</td><td>wartość w przegubie drugim 0-180 (stopnie) </td></tr>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a3babfceb0109ac4bf55428d4409515e3_icgraph.png" border="0" usemap="#aclass_connection_a3babfceb0109ac4bf55428d4409515e3_icgraph" alt=""/></div>
-<map name="aclass_connection_a3babfceb0109ac4bf55428d4409515e3_icgraph" id="aclass_connection_a3babfceb0109ac4bf55428d4409515e3_icgraph">
-<area shape="rect" title="changedAngle2 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer dwa jego wystąpie..." alt="" coords="771,13,973,39"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -466,21 +408,10 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Value1</td><td>wartość w przegubie trzecim </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">Value1</td><td>wartość w przegubie trzecim 0-180 (stopnie) </td></tr>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_af1a984cdd4602424336afdfdb2a2495f_icgraph.png" border="0" usemap="#aclass_connection_af1a984cdd4602424336afdfdb2a2495f_icgraph" alt=""/></div>
-<map name="aclass_connection_af1a984cdd4602424336afdfdb2a2495f_icgraph" id="aclass_connection_af1a984cdd4602424336afdfdb2a2495f_icgraph">
-<area shape="rect" title="changedAngle3 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer trzy jego wystąpi..." alt="" coords="771,13,973,39"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -527,18 +458,6 @@ Oto graf wywoływań tej funkcji:</div>
 <dl class="section return"><dt>Zwraca</dt><dd>Wartość zwracana przez metodę to obliczona suma kontrolna </dd></dl>
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00047">47</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a0d46a2dd44f58b49afcb88e3afb14187_icgraph.png" border="0" usemap="#aclass_connection_a0d46a2dd44f58b49afcb88e3afb14187_icgraph" alt=""/></div>
-<map name="aclass_connection_a0d46a2dd44f58b49afcb88e3afb14187_icgraph" id="aclass_connection_a0d46a2dd44f58b49afcb88e3afb14187_icgraph">
-<area shape="rect" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="524,46,701,73"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="269,17,460,43"/>
-<area shape="rect" href="class_connection.html#acd0097ce6c0b22d0e94ebee38ccc76bd" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="253,71,476,98"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-<area shape="rect" href="class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="6,71,205,112"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -567,21 +486,10 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">data</td><td>Struktura zawierająca wartości poszczególnych kątów </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">data</td><td>Struktura zawierająca wartości poszczególnych kątów </td></tr>
   </table>
   </dd>
 </dl>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_aa8b63319b7b29fb21a782b5901a89860_icgraph.png" border="0" usemap="#aclass_connection_aa8b63319b7b29fb21a782b5901a89860_icgraph" alt=""/></div>
-<map name="aclass_connection_aa8b63319b7b29fb21a782b5901a89860_icgraph" id="aclass_connection_aa8b63319b7b29fb21a782b5901a89860_icgraph">
-<area shape="rect" title="newDataToRead Sygnał informujący o zebraniu nowych danych o wartości kątów w przegubach...." alt="" coords="771,13,979,39"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,13,723,39"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -609,15 +517,6 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00203">203</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywołań dla tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_ac057b2c15c27902193726bde75b123dc_cgraph.png" border="0" usemap="#aclass_connection_ac057b2c15c27902193726bde75b123dc_cgraph" alt=""/></div>
-<map name="aclass_connection_ac057b2c15c27902193726bde75b123dc_cgraph" id="aclass_connection_ac057b2c15c27902193726bde75b123dc_cgraph">
-<area shape="rect" title="on_pushButtonOff_clicked Slot obsługujący kliknięcie przycisku &quot;Rozłącz&quot;. Kliknięcie powoduje start p..." alt="" coords="5,5,205,47"/>
-<area shape="rect" href="class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="253,13,424,39"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -645,18 +544,6 @@ Oto graf wywołań dla tej funkcji:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00170">170</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywołań dla tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a616a0bb95eaad72b087cbb73eb19c035_cgraph.png" border="0" usemap="#aclass_connection_a616a0bb95eaad72b087cbb73eb19c035_cgraph" alt=""/></div>
-<map name="aclass_connection_a616a0bb95eaad72b087cbb73eb19c035_cgraph" id="aclass_connection_a616a0bb95eaad72b087cbb73eb19c035_cgraph">
-<area shape="rect" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,23,205,65"/>
-<area shape="rect" href="class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="522,5,693,32"/>
-<area shape="rect" href="class_connection.html#a4ddc9f53e541c808736a6378ca689be2" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,56,444,83"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="492,56,723,83"/>
-<area shape="rect" href="class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="519,107,696,133"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -684,15 +571,6 @@ Oto graf wywołań dla tej funkcji:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00156">156</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywołań dla tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_aa9474ea10f04d9818f71d6ee9408f016_cgraph.png" border="0" usemap="#aclass_connection_aa9474ea10f04d9818f71d6ee9408f016_cgraph" alt=""/></div>
-<map name="aclass_connection_aa9474ea10f04d9818f71d6ee9408f016_cgraph" id="aclass_connection_aa9474ea10f04d9818f71d6ee9408f016_cgraph">
-<area shape="rect" title="on_pushButtonSearch_clicked Slot obsługujący kliknięcie przycisku &quot;Szukaj&quot;. Kliknięcie powoduje wyszu..." alt="" coords="5,5,205,47"/>
-<area shape="rect" href="class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="253,13,424,39"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -720,26 +598,6 @@ Oto graf wywołań dla tej funkcji:</div>
 </div><div class="memdoc">
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00215">215</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywołań dla tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a4ddc9f53e541c808736a6378ca689be2_cgraph.png" border="0" usemap="#aclass_connection_a4ddc9f53e541c808736a6378ca689be2_cgraph" alt=""/></div>
-<map name="aclass_connection_a4ddc9f53e541c808736a6378ca689be2_cgraph" id="aclass_connection_a4ddc9f53e541c808736a6378ca689be2_cgraph">
-<area shape="rect" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="5,56,196,83"/>
-<area shape="rect" href="class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="274,5,445,32"/>
-<area shape="rect" href="class_connection.html#a820cecf0ed3503743d80c92609d6fc8f" title="addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach" alt="" coords="244,56,475,83"/>
-<area shape="rect" href="class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="271,107,448,133"/>
-</map>
-</div>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_a4ddc9f53e541c808736a6378ca689be2_icgraph.png" border="0" usemap="#aclass_connection_a4ddc9f53e541c808736a6378ca689be2_icgraph" alt=""/></div>
-<map name="aclass_connection_a4ddc9f53e541c808736a6378ca689be2_icgraph" id="aclass_connection_a4ddc9f53e541c808736a6378ca689be2_icgraph">
-<area shape="rect" title="readFromPort Slot obsługujący sygnał readyRead() z klasy QIODevice. Inicjalizacja syg...." alt="" coords="253,13,444,39"/>
-<area shape="rect" href="class_connection.html#a616a0bb95eaad72b087cbb73eb19c035" title="on_pushButtonOn_clicked Slot obsługujący kliknięcie przycisku &quot;Połącz&quot;. Po kliknięciu następuje proce..." alt="" coords="5,5,205,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -776,33 +634,14 @@ Oto graf wywoływań tej funkcji:</div>
 </div><div class="memdoc">
 <dl class="params"><dt>Parametry</dt><dd>
   <table class="params">
-    <tr><td class="paramname">joint1</td><td>wartość kąta w przegubie pierwszym </td></tr>
-    <tr><td class="paramname">joint2</td><td>wartość kąta w przegubie drugim </td></tr>
-    <tr><td class="paramname">joint3</td><td>wartość kąta w przegubie trzecim </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint1</td><td>wartość kąta w przegubie pierwszym 0-360 (stopnie) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint2</td><td>wartość kąta w przegubie drugim 0-180 (stopnie) </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">joint3</td><td>wartość kąta w przegubie trzecim 0-180 (stopnie) </td></tr>
   </table>
   </dd>
 </dl>
 
 <p class="definition">Definicja w linii <a class="el" href="connection_8cpp_source.html#l00082">82</a> pliku <a class="el" href="connection_8cpp_source.html">connection.cpp</a>.</p>
-<div class="dynheader">
-Oto graf wywołań dla tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_cgraph.png" border="0" usemap="#aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_cgraph" alt=""/></div>
-<map name="aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_cgraph" id="aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_cgraph">
-<area shape="rect" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="5,31,228,57"/>
-<area shape="rect" href="class_connection.html#ab0ec2e540c6d68a50341ebd38aa4b0ef" title="addToLogs Metoda dodająca odpowiednią informację tekstową w oknie tekstowym" alt="" coords="279,5,450,32"/>
-<area shape="rect" href="class_connection.html#a0d46a2dd44f58b49afcb88e3afb14187" title="checkCrc_8 Funkcja obliczająca sumę kontrolną" alt="" coords="276,56,453,83"/>
-</map>
-</div>
-<div class="dynheader">
-Oto graf wywoływań tej funkcji:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_icgraph.png" border="0" usemap="#aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_icgraph" alt=""/></div>
-<map name="aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_icgraph" id="aclass_connection_acd0097ce6c0b22d0e94ebee38ccc76bd_icgraph">
-<area shape="rect" title="SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika w o..." alt="" coords="252,13,475,39"/>
-<area shape="rect" href="class_main_window.html#a30a55f3529144e2f305d861a5b08510e" title="Slot obsługujący kliknięcie przycisku &quot;Wyśli&quot;, kliknięcie przycisku powoduje wysłanie ustalonych za p..." alt="" coords="5,5,204,47"/>
-</map>
-</div>
 
 </div>
 </div>
@@ -904,8 +743,8 @@ Oto graf wywoływań tej funkcji:</div>
 </div>
 </div>
 <hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
-<li>/home/wiktor/Pulpit/nowy/WDS/manipulator-m4p/Aplikacja/ManipulatorAplikacja/code/Inc/<a class="el" href="connection_8h_source.html">connection.h</a></li>
-<li>/home/wiktor/Pulpit/nowy/WDS/manipulator-m4p/Aplikacja/ManipulatorAplikacja/code/Src/<a class="el" href="connection_8cpp_source.html">connection.cpp</a></li>
+<li>/home/wiktor/Pulpit/Manipulator PZ/3DManipulator/Aplikacja/ManipulatorAplikacja/code/Inc/<a class="el" href="connection_8h_source.html">connection.h</a></li>
+<li>/home/wiktor/Pulpit/Manipulator PZ/3DManipulator/Aplikacja/ManipulatorAplikacja/code/Src/<a class="el" href="connection_8cpp_source.html">connection.cpp</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

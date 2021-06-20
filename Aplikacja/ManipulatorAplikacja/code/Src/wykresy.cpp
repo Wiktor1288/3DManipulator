@@ -35,7 +35,7 @@ Wykresy::Wykresy(QWidget *parent) :
     ui->widget->xAxis->setLabel("Czas [hh:mm:ss]");
 
     ui->widget->yAxis->setRange(0,400);
-    ui->widget->yAxis->setLabel("Przyspieszenie liniowe [mg]");
+    ui->widget->yAxis->setLabel("Kąt w przegubie 1 [stopnie]");
 
 
     ui->widget->legend->setVisible(true);
@@ -49,7 +49,7 @@ Wykresy::Wykresy(QWidget *parent) :
     ui->widget_2->xAxis->setLabel("Czas [hh:mm:sss]");
 
     ui->widget_2->yAxis->setRange(0,400);
-    ui->widget_2->yAxis->setLabel("Przyspieszenie liniowe [mg]");
+    ui->widget_2->yAxis->setLabel("Kąt w przegubie 2 [stopnie]");
 
     ui->widget_2->legend->setVisible(true);
 
@@ -63,7 +63,7 @@ Wykresy::Wykresy(QWidget *parent) :
     ui->widget_3->xAxis->setLabel("Czas [hh:mm:ss]");
 
     ui->widget_3->yAxis->setRange(0,400);
-    ui->widget_3->yAxis->setLabel("Przyspieszenie liniowe [mg]");
+    ui->widget_3->yAxis->setLabel("Kąt w przegubie 3 [stopnie]");
 
     ui->widget_3->legend->setVisible(true);
 

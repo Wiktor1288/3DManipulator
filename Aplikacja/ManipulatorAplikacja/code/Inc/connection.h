@@ -36,22 +36,22 @@ signals:
 
      /// \brief changedAngle1 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer jeden
      /// jego wystąpienie powoduje wykonanie slotu odpowiedzialnego za wyświetlenie wartości w oknie głownym aplikacji
-     /// \param Value1 wartość w przegubie pierwszym
+     /// \param[in] Value1 wartość w przegubie pierwszym  0-360 (stopnie)
     void changedAngle1(int Value1);
 
     /// \brief changedAngle2 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer dwa
     /// jego wystąpienie powoduje wykonanie slotu odpowiedzialnego za wyświetlenie wartości w oknie głownym aplikacji
-    /// \param Value1 wartość w przegubie drugim
+    /// \param[in] Value1 wartość w przegubie drugim  0-180 (stopnie)
     void changedAngle2(int Value2);
 
     /// \brief changedAngle3 Sygnał informujący o odczytaniu nowej wartości kąta w przegubie numer trzy
     /// jego wystąpienie powoduje wykonanie slotu odpowiedzialnego za wyświetlenie wartości w oknie głownym aplikacji
-    /// \param Value1 wartość w przegubie trzecim
+    /// \param[in] Value1 wartość w przegubie trzecim 0-180 (stopnie)
     void changedAngle3(int Value3);
 
     /// \brief newDataToRead Sygnał informujący o zebraniu nowych danych o wartości kątów w przegubach.
     /// Wartości te są przechowywane w strukturze o nazwie Data
-    /// \param data Struktura zawierająca wartości poszczególnych kątów
+    /// \param[in] data Struktura zawierająca wartości poszczególnych kątów
     void newDataToRead(Data data);
 
 private slots:
@@ -98,32 +98,32 @@ private:
     uint8_t checkCrc_8( char *input_str, size_t num_bytes );
     ///
     /// \brief addValuesOfAngles Metoda aktualizująca wartośc kątów w poszczególnych przegubach
-    /// \param joint1 wartość w przegubie pierwszym
-    /// \param joint2 wartość w przegubie drugim
-    /// \param joint3 wartość w przegubie trzecim
+    /// \param[in] joint1 wartość w przegubie pierwszym 0-360 (stopnie)
+    /// \param[in] joint2 wartość w przegubie drugim 0-180 (stopnie)
+    /// \param[in] joint3 wartość w przegubie trzecim 0-180 (stopnie)
     ///
     void addValuesOfAngles(int joint1, int joint2, int joint3);
 
 public:
     ///
-    /// \brief Angles1 wartość kąta w przegubie pierwszym
+    /// \brief Angles1 wartość kąta w przegubie pierwszym 0-360 (stopnie)
     ///
     int Angles1;
     ///
-    /// \brief Angles2 wartość kąta w przegubie drugim
+    /// \brief Angles2 wartość kąta w przegubie drugim 0-180 (stopnie)
     ///
     int Angles2;
     ///
-    /// \brief Angles3 wartość kąta w przegubie trzecim
+    /// \brief Angles3 wartość kąta w przegubie trzecim 0-180 (stopnie)
     ///
     int Angles3;
 
 
     /// \brief SendConfiguration metoda odpowiedzialna za wysłanie wartośći przegubów zadanych przez użytkownika
     /// w oknie głównym aplikacji przy pomocy suwaków
-    /// \param joint1 wartość kąta w przegubie pierwszym
-    /// \param joint2 wartość kąta w przegubie drugim
-    /// \param joint3 wartość kąta w przegubie trzecim
+    /// \param[in]  joint1 wartość kąta w przegubie pierwszym 0-360 (stopnie)
+    /// \param[in]  joint2 wartość kąta w przegubie drugim 0-180 (stopnie)
+    /// \param[in]  joint3 wartość kąta w przegubie trzecim 0-180 (stopnie)
     ///
     void SendConfiguration(int joint1, int joint2, int joint3);
 
